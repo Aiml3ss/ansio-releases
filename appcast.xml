@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Live Ansio update feed, consumed by Sparkle (macOS client) and NetSparkleUpdater
+  (Windows host). One channel serves both platforms via sparkle:os filtering on
+  each <enclosure>; each client ignores items for the other OS and only installs
+  a build whose EdDSA/Ed25519 signature verifies against the public key baked
+  into that app.
+
+  Binaries are GitHub release assets on this public repo, so they download without
+  authenticating against the private source repo (Aiml3ss/ansio).
+
+  The Windows enclosure is added by the release pipeline once a signed .msi exists.
+-->
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ansio Updates</title>
+    <link>https://raw.githubusercontent.com/Aiml3ss/ansio-releases/main/appcast.xml</link>
+    <description>Release notes and update feed for the Ansio macOS client and Windows host.</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Wed, 22 Jul 2026 18:14:38 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Ansio 0.1.0 — first preview</h2>
+        <ul>
+          <li>First public build of the Ansio macOS client.</li>
+          <li>Adds in-app self-update (Sparkle): the app checks this feed daily and via “Ansio ▸ Check for Updates…”.</li>
+          <li>Unsigned preview: on first launch, right-click the app and choose Open (or clear quarantine) to get past Gatekeeper.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.0/Ansio-0.1.0.dmg"
+          sparkle:os="macos"
+          sparkle:version="1"
+          sparkle:shortVersionString="0.1.0"
+          length="9209838"
+          type="application/octet-stream"
+          sparkle:edSignature="+KolBKwEBE1s4G9UYNu+i+8Tn7+w8dxaRUcze2doXZTcI84LQMGGsqiytIG1gu6S33H33vHFPfv9dpla27H9DQ==" />
+    </item>
+  </channel>
+</rss>
