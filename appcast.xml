@@ -41,5 +41,18 @@
           type="application/octet-stream"
           sparkle:edSignature="rF9iZNHAXZjgRQ2LY9K+ToR/solI+UNo1Su9zG07emc3659y9Dl7OnB4HejfZx2j+dGyMNf+IQNQ0X9eZQECBw==" />
     </item>
+
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Wed, 22 Jul 2026 18:14:38 +0000</pubDate>
+      <description><![CDATA[<h2>Ansio Host 0.1.0</h2><ul><li>First Windows host build with self-update.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
+      <enclosure
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.0/AnsioHost-0.1.0.msi"
+          sparkle:os="windows"
+          sparkle:version="0.1.0"
+          length="55956073"
+          type="application/octet-stream"
+          sparkle:edSignature="phVRjsQ5xVLtv3bZ6RMhjoUSOOwC1fbEfLZI1CI03nNr/XSFPgpkrDdZiCV17n8BgBPwTCZk/oPu2jj8jgczAA==" />
+    </item>
   </channel>
 </rss>
