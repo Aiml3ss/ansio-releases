@@ -37,9 +37,9 @@
           sparkle:os="macos"
           sparkle:version="1"
           sparkle:shortVersionString="0.1.0"
-          length="9209838"
+          length="9121873"
           type="application/octet-stream"
-          sparkle:edSignature="+KolBKwEBE1s4G9UYNu+i+8Tn7+w8dxaRUcze2doXZTcI84LQMGGsqiytIG1gu6S33H33vHFPfv9dpla27H9DQ==" />
+          sparkle:edSignature="rF9iZNHAXZjgRQ2LY9K+ToR/solI+UNo1Su9zG07emc3659y9Dl7OnB4HejfZx2j+dGyMNf+IQNQ0X9eZQECBw==" />
     </item>
   </channel>
 </rss>
