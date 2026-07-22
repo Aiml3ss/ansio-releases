@@ -43,16 +43,16 @@
     </item>
 
     <item>
-      <title>Version 0.1.2</title>
-      <pubDate>Wed, 22 Jul 2026 22:00:00 +0000</pubDate>
-      <description><![CDATA[<h2>Ansio 0.1.2</h2><ul><li>Fixes the crash when navigating between pages.</li><li>The app is now “Ansio”, with a much smaller install (~44 MB vs ~160 MB).</li><li>The installer provisions the .NET 8 and Windows App runtimes automatically.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
+      <title>Version 0.1.3</title>
+      <pubDate>Wed, 22 Jul 2026 22:30:00 +0000</pubDate>
+      <description><![CDATA[<h2>Ansio 0.1.3</h2><ul><li>Fixes pairing: the Windows host can now generate its identity, advertise over mDNS, and accept a Mac with a PIN (this never worked before).</li><li>Also includes 0.1.2: navigation crash fix, renamed to “Ansio”, small install (~44 MB), auto-installing setup.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
       <enclosure
-          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.2/AnsioSetup-0.1.2.exe"
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.3/AnsioSetup-0.1.3.exe"
           sparkle:os="windows"
-          sparkle:version="0.1.2"
-          length="134054802"
+          sparkle:version="0.1.3"
+          length="134058714"
           type="application/octet-stream"
-          sparkle:edSignature="/PndbJGme580K1IlOQJ4JD1ofUPJIuFcbCTbXaCYTWvyRjdaBw5LRiUFbBikbErG4yIAU8SU1Q3SYjxgcQ1HBQ==" />
+          sparkle:edSignature="AgcwPwNz9xBPW+FN+p/IbAnnay3hX8O6KngyBDrzTB6CpIzBUggUU3m3aCsoTvYt5ysRcHluTwLIm+8B11muAQ==" />
     </item>
   </channel>
 </rss>
