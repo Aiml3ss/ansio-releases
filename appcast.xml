@@ -43,16 +43,16 @@
     </item>
 
     <item>
-      <title>Version 0.1.1</title>
-      <pubDate>Wed, 22 Jul 2026 21:30:00 +0000</pubDate>
-      <description><![CDATA[<h2>Ansio Host 0.1.1</h2><ul><li>Fixes a crash when navigating between the Overview / Sessions / Pairing / Diagnostics / Settings pages.</li><li>The app now identifies as “Ansio Host” (was “ansio-host-ui”), and the installer lets you choose the install folder.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
+      <title>Version 0.1.2</title>
+      <pubDate>Wed, 22 Jul 2026 22:00:00 +0000</pubDate>
+      <description><![CDATA[<h2>Ansio 0.1.2</h2><ul><li>Fixes the crash when navigating between pages.</li><li>The app is now “Ansio”, with a much smaller install (~44 MB vs ~160 MB).</li><li>The installer provisions the .NET 8 and Windows App runtimes automatically.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
       <enclosure
-          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.1/AnsioHost-0.1.1.msi"
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.2/AnsioSetup-0.1.2.exe"
           sparkle:os="windows"
-          sparkle:version="0.1.1"
-          length="56264754"
+          sparkle:version="0.1.2"
+          length="134054802"
           type="application/octet-stream"
-          sparkle:edSignature="iMenX2NeXW8Zbry99dJ3lWQO0hIS8ThZMcHCYDtrNzKKvNVVScrL5+66glNn4uHYp6mwKvVeEtIcfQNq37qrBg==" />
+          sparkle:edSignature="/PndbJGme580K1IlOQJ4JD1ofUPJIuFcbCTbXaCYTWvyRjdaBw5LRiUFbBikbErG4yIAU8SU1Q3SYjxgcQ1HBQ==" />
     </item>
   </channel>
 </rss>
