@@ -33,13 +33,13 @@
         </ul>
       ]]></description>
       <enclosure
-          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.1/Ansio-0.1.1.dmg"
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.2/Ansio-0.1.2.dmg"
           sparkle:os="macos"
-          sparkle:version="2"
-          sparkle:shortVersionString="0.1.1"
-          length="9122841"
+          sparkle:version="3"
+          sparkle:shortVersionString="0.1.2"
+          length="9123129"
           type="application/octet-stream"
-          sparkle:edSignature="G0ArBa4Im0BdBMyHyh1ARhQ5ogNFs5u3PiMPCU96m+405WQICg7G0sePMlaso7H+YiABo22+LbtevAaHKL5CAQ==" />
+          sparkle:edSignature="CPqH8DO4cq9TIHfPYx/kUdNH81EWzTND+BLwfHXd6qdILvTvRaXToq7vax8C1yTVQyaY35BONrCWRQv6y1oOCg==" />
     </item>
 
     <item>
