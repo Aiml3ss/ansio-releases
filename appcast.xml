@@ -43,16 +43,16 @@
     </item>
 
     <item>
-      <title>Version 0.1.4</title>
-      <pubDate>Thu, 23 Jul 2026 18:20:14 +0000</pubDate>
-      <description><![CDATA[<h2>Ansio 0.1.4</h2><ul><li>Fixes pairing dropping after about 2 minutes: the pairing code is now valid for 10 minutes, matching how long the host shows it.</li><li>Also includes the post-0.1.3 HDR HEVC (Main10) hardware-encoder fixes.</li><li>Unsigned preview: SmartScreen will warn on first run.</li></ul>]]></description>
+      <title>Version 0.1.5</title>
+      <pubDate>Thu, 23 Jul 2026 19:45:00 +0000</pubDate>
+      <description><![CDATA[<h2>Ansio 0.1.5</h2><ul><li>Fixes self-update: clicking "Update now" now installs and relaunches (0.1.2-0.1.4 downloaded the update but never installed it).</li><li>Includes the 0.1.4 pairing-code fix (10-minute window) and the HDR HEVC encoder fixes.</li><li>Unsigned preview: SmartScreen will warn on first run.</li>]]></description>
       <enclosure
-          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.4/AnsioSetup-0.1.4.exe"
+          url="https://github.com/Aiml3ss/ansio-releases/releases/download/v0.1.5/AnsioSetup-0.1.5.exe"
           sparkle:os="windows"
-          sparkle:version="0.1.4"
-          length="134063850"
+          sparkle:version="0.1.5"
+          length="134063676"
           type="application/octet-stream"
-          sparkle:edSignature="0aQvt0g7hpMe7c83iaKGWj+QYdYs/6N96t5cFt09CSGd8GZMg3C4qyRq60jByknCsFF6Vr8sitn91r7Mc9RuDA==" />
+          sparkle:edSignature="i5BD59/b4z4Jd8hLX1/PK/FB8/ywrKa9VOAoNYMJlIEqgN4x30txDJ1F7Q6I1FoWKlgRUJJrKVp4waaQKtFeCQ==" />
     </item>
   </channel>
 </rss>
